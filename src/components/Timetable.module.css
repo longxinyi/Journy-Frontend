@@ -1,0 +1,46 @@
+.timetable {
+    position: relative;
+    padding-left: 40px; 
+  }
+  
+  .timetable:before {
+    content: '';
+    position: absolute;
+    left: 20px; 
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: #bdbdbd;
+  }
+  
+  .dateHeader {
+    background-color: #e0e0e0;
+    padding: 8px 16px;
+    width: 100%; 
+    box-sizing: border-box;
+  }
+  
+  
+  .activity {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .time {
+    width: 50px;
+    text-align: right;
+    margin-right: 10px;
+  }
+  
+  .dot {
+    flex-shrink: 0;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #757575;
+    position: absolute;
+    left: 16px;
+    transform: translateX(-50%);
+  }
+  

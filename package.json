@@ -1,0 +1,52 @@
+{
+  "name": "is3106-travelplanner",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@cloudinary/react": "^1.13.0",
+    "@cloudinary/url-gen": "^1.19.0",
+    "@fortawesome/fontawesome-svg-core": "^6.5.1",
+    "@fortawesome/free-brands-svg-icons": "^6.5.1",
+    "@fortawesome/free-regular-svg-icons": "^6.5.1",
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@headlessui/react": "^1.7.19",
+    "@mapbox/geojson-rewind": "^0.5.2",
+    "@mapbox/togeojson": "^0.16.2",
+    "axios": "^1.6.8",
+    "bootstrap": "^5.3.3",
+    "cloudinary": "^2.1.0",
+    "file-saver": "^2.0.5",
+    "framer-motion": "^11.0.5",
+    "jwt-decode": "^4.0.0",
+    "leaflet": "^1.9.4",
+    "next": "^14.1.4",
+    "next-auth": "^4.24.7",
+    "react": "^18",
+    "react-bootstrap": "^2.10.2",
+    "react-dom": "^18",
+    "react-leaflet": "^4.2.1",
+    "react-range": "^1.8.14",
+    "react-select": "^5.8.0",
+    "react-slick": "^0.30.2",
+    "sass": "^1.71.1",
+    "slick-carousel": "^1.8.1",
+    "tokml": "^0.4.0",
+    "typeface-inter": "^3.18.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.0.1",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.3",
+    "typescript": "^5.3.3"
+  }
+}
